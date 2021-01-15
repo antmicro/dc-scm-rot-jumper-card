@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name dc-scm-rot-jumper-card-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/dc-scm-rot-jumper-card-footprints)(options "")(descr ""))
+)

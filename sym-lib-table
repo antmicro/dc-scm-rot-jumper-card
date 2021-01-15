@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name dc-scm-rot-jumper-card)(type Legacy)(uri ${KIPRJMOD}/lib/dc-scm-rot-jumper-card.lib)(options "")(descr ""))
+)

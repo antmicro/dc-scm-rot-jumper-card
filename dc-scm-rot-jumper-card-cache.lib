@@ -1,7 +1,50 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# dc-scm-rot-jumper-card_5019205001
+# GND
+#
+DEF dc-scm-rot-jumper-card_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "dc-scm-rot-jumper-card_GND" 0 -150 50 H V C CNN
+F2 "dc-scm-rot-jumper-card-footprints:" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# R_0R_0402
+#
+DEF dc-scm-rot-jumper-card_R_0R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "dc-scm-rot-jumper-card_R_0R_0402" 0 -150 60 H I C CNN
+F2 "dc-scm-rot-jumper-card-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TP_SMD1MM
+#
+DEF dc-scm-rot-jumper-card_TP_SMD1MM TP 0 0 N Y 1 F N
+F0 "TP" -100 50 50 H V R CNN
+F1 "dc-scm-rot-jumper-card_TP_SMD1MM" 0 -100 50 H I C CNN
+F2 "dc-scm-rot-jumper-card-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+DRAW
+C 0 0 22 0 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 5019205001
 #
 DEF dc-scm-rot-jumper-card_5019205001 J 0 40 Y Y 1 F N
 F0 "J" 50 150 50 H V C CNN
@@ -113,50 +156,7 @@ X ~ 9 -100 -850 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dc-scm-rot-jumper-card_GND
-#
-DEF dc-scm-rot-jumper-card_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "dc-scm-rot-jumper-card_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# dc-scm-rot-jumper-card_R_0R_0402
-#
-DEF dc-scm-rot-jumper-card_R_0R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "dc-scm-rot-jumper-card_R_0R_0402" 0 -150 60 H I C CNN
-F2 "dc-scm-rot-jumper-card-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
-F6 "0R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# dc-scm-rot-jumper-card_TP_SMD1MM
-#
-DEF dc-scm-rot-jumper-card_TP_SMD1MM TP 0 0 N Y 1 F N
-F0 "TP" -100 50 50 H V R CNN
-F1 "dc-scm-rot-jumper-card_TP_SMD1MM" 0 -100 50 H I C CNN
-F2 "dc-scm-rot-jumper-card-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-DRAW
-C 0 0 22 0 1 0 N
-X ~ 1 0 100 75 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# dc-scm-rot-jumper-card_antmicro_logo
+# antmicro_logo
 #
 DEF dc-scm-rot-jumper-card_antmicro_logo N 0 40 Y Y 1 F N
 F0 "N" 0 350 50 H V C CNN
@@ -168,7 +168,7 @@ T 0 50 50 79 0 0 0 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
-# dc-scm-rot-jumper-card_oshw_logo
+# oshw_logo
 #
 DEF dc-scm-rot-jumper-card_oshw_logo N 0 40 Y Y 1 F N
 F0 "N" 20 40 50 H V C CNN

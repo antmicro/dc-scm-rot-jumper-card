@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.9+dfsg1-1~bpo10+1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.9+dfsg1-1)
 
   (general
     (thickness 1.6)
@@ -269,7 +269,7 @@
   )
 
   (module dc-scm-rot-jumper-card-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 61C389DF)
-    (at 140.98138 94.9664)
+    (at 139.91078 94.455)
     (path /61CB4CF1)
     (attr virtual)
     (fp_text reference N2 (at -3.08 -4.76) (layer F.SilkS) hide
@@ -1407,7 +1407,7 @@
   )
 
   (module dc-scm-rot-jumper-card-footprints:antmicro-logo_scaled_15mm (layer F.Cu) (tedit 5E4A93DE) (tstamp 61C389B7)
-    (at 146.85138 88.0214)
+    (at 145.68298 87.5896)
     (path /61CB3D09)
     (attr virtual)
     (fp_text reference N1 (at -7.7 -10.3) (layer F.SilkS) hide
@@ -2980,10 +2980,10 @@
     )
   )
 
-  (gr_text "Open BMC RoT module \nRev. 1.0.1" (at 143.49638 90.3464) (layer F.Mask) (tstamp 61C38E2B)
+  (gr_text "DC-SCM RoT Jumper Card\nRev. 1.1.0" (at 142.32798 89.9146) (layer F.Mask) (tstamp 61C38E2B)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
   )
-  (gr_text "Open BMC RoT module \nRev. 1.0.1" (at 143.49638 90.3464) (layer F.Cu) (tstamp 60019A21)
+  (gr_text "DC-SCM RoT Jumper Card\nRev. 1.1.0" (at 142.32798 89.9146) (layer F.Cu) (tstamp 60019A21)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
   )
   (gr_text BIOS (at 142.475 107.885) (layer F.SilkS) (tstamp 60022A0B)
